@@ -30,7 +30,7 @@ class AddUbicacion {
         u.latitud,
         u.longitud,
       );
-      return distancia <= 500; // Radio en metros.
+      return distancia <= 500;
     });
 
     if (esCercana) {

@@ -3,16 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:provider/provider.dart';
 import 'package:prueba/domain/entities/friend.dart';
-import 'package:prueba/domain/usecases/friends/friend_usecases.dart';
-
-import '../../data/datasources/local/database_helper.dart';
-import '../../data/datasources/local/friend_local_datasource.dart';
-import '../../data/repositories/friends_repsoitory_impl.dart';
-import '../../domain/repositories/friend_repository.dart';
 import '../stores/friend_store.dart';
-import '../viewmodels/image_picker_viewmodel.dart';
 import '../widgets/image_picker_buttons.dart';
 
 class AddFriendPage extends StatefulWidget {

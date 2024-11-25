@@ -163,13 +163,14 @@ class _AddLocationPageState extends State<AddLocationPage> {
                   child: ImagePickerButtons(
                     onPickImage: _pickImage,
                     onTakePhoto: _pickImageFromCamera,
+
                   ),
                 ),
 
                 const SizedBox(height: 20),
                 const SizedBox(height: 20),
 
-// Mostrar las imágenes
+
                 if (_imageFiles.isNotEmpty)
                   Center(
                     child: Wrap(
@@ -224,18 +225,18 @@ class _AddLocationPageState extends State<AddLocationPage> {
       controller: controller,
       decoration: InputDecoration(
         labelText: label,
-        labelStyle: TextStyle(color: Color(0xFF1E3A8A)), // Azul rey oscuro
+        labelStyle: TextStyle(color: Color(0xFF1E3A8A)),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: const BorderSide(
-            color: Color(0xFF1E3A8A), // Azul rey oscuro
+            color: Color(0xFF1E3A8A),
             width: 2,
           ),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: const BorderSide(
-            color: Color(0xFF1E3A8A), // Azul rey oscuro
+            color: Color(0xFF1E3A8A),
             width: 2,
           ),
         ),

@@ -10,8 +10,10 @@ class GetUbicaciones {
 
   Future<List<Location>> call({int? friendId}) async {
     if (friendId != null) {
+      print("Se buscan ubicaciones por id del amigo");
       return await repository.getLocationForFriend(friendId);
     }
+    print("Se buscan ubicaciones normalmente");
     return await repository.getLocation();
   }
 }

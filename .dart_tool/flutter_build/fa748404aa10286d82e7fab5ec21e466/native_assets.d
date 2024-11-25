@@ -1,0 +1,1 @@
+ /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/.dart_tool/flutter_build/fa748404aa10286d82e7fab5ec21e466/native_assets.yaml: 

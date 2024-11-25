@@ -763,7 +763,7 @@
             "outputFile": "com.ubicaciones.prueba.app-merged_res-28:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -981,7 +981,7 @@
                     }
                 },
                 {
-                    "source": "/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

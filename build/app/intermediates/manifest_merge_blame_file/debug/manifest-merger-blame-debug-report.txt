@@ -13,23 +13,23 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:7:5-67
-15-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:7:22-64
+15-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:7:5-67
+15-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:2:5-80
-16-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:2:22-77
+16-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:2:5-80
+16-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:2:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:3:5-81
-17-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:3:22-78
+17-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:3:5-81
+17-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:3:22-78
 18    <uses-permission android:name="android.permission.CAMERA" />
-18-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:4:5-65
-18-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:4:22-62
+18-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:4:5-65
+18-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:4:22-62
 19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-19-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:5:5-81
-19-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:5:22-78
+19-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:5:5-81
+19-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:5:22-78
 20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-20-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:6:5-79
-20-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:6:22-76
+20-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:6:5-79
+20-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:6:22-76
 21    <!--
 22 Required to query activities that can process text, see:
 23         https://developer.android.com/training/package-visibility and
@@ -38,16 +38,16 @@
 26         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 27    -->
 28    <queries>
-28-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:46:5-51:15
+28-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:46:5-51:15
 29        <intent>
-29-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:47:9-50:18
+29-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:47:9-50:18
 30            <action android:name="android.intent.action.PROCESS_TEXT" />
-30-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:48:13-72
-30-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:48:21-70
+30-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:48:13-72
+30-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:48:21-70
 31
 32            <data android:mimeType="text/plain" />
-32-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:49:13-50
-32-->/Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/android/app/src/main/AndroidManifest.xml:49:19-48
+32-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:49:13-50
+32-->/Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/android/app/src/main/AndroidManifest.xml:49:19-48
 33        </intent>
 34    </queries>
 35
@@ -105,54 +105,54 @@
 81            android:value="2" />
 82
 83        <provider
-83-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+83-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
 84            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-84-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+84-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
 85            android:authorities="com.ubicaciones.prueba.flutter.image_provider"
-85-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+85-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 86            android:exported="false"
-86-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+86-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 87            android:grantUriPermissions="true" >
-87-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+87-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
 88            <meta-data
-88-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+88-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
 89                android:name="android.support.FILE_PROVIDER_PATHS"
-89-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+89-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
 90                android:resource="@xml/flutter_image_picker_file_paths" />
-90-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+90-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
 91        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
 92        <service
-92-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+92-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
 93            android:name="com.google.android.gms.metadata.ModuleDependencies"
-93-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+93-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
 94            android:enabled="false"
-94-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+94-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
 95            android:exported="false" >
-95-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+95-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
 96            <intent-filter>
-96-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+96-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
 97                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-97-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
-97-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+97-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+97-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
 98            </intent-filter>
 99
 100            <meta-data
-100-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+100-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
 101                android:name="photopicker_activity:0:required"
-101-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+101-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
 102                android:value="" />
-102-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+102-->[:image_picker_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
 103        </service>
 104        <service
-104-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:56
+104-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:56
 105            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-105-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
+105-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
 106            android:enabled="true"
-106-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-35
+106-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-35
 107            android:exported="false"
-107-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+107-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 108            android:foregroundServiceType="location" />
-108-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebaTecnicaFlutterInterrapidisimo/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-53
+108-->[:geolocator_android] /Users/duvanvelasquez/AndroidStudioProjects/pruebatecnica/ubicaciones/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-53
 109
 110        <activity
 110-->[com.google.android.gms:play-services-base:18.3.0] /Users/duvanvelasquez/.gradle/caches/transforms-3/bb9d59e21b7884666623ba570b979574/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45

@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:prueba/data/datasources/local/location_local_datasource.dart';
 import 'package:prueba/data/repositories/location_repository_impl.dart';
+import 'package:prueba/domain/entities/location.dart';
 import 'package:prueba/domain/usecases/positions/add_location.dart';
 import 'package:prueba/domain/usecases/positions/get_locations.dart';
 import 'package:prueba/presentation/pages/create_location.dart';
 import 'package:prueba/presentation/stores/location_store.dart';
 import 'package:prueba/presentation/widgets/location_card.dart';
 import '../../data/datasources/local/database_helper.dart';
+import '../../domain/repositories/location_repository.dart';
+import '../routes.dart';
 
 class LocationsPage extends StatefulWidget {
   const LocationsPage({Key? key}) : super(key: key);
@@ -18,6 +21,7 @@ class LocationsPage extends StatefulWidget {
 
 class _LocationsPageState extends State<LocationsPage> {
   late LocationStore locationStore;
+
 
   @override
   void initState() {
@@ -30,6 +34,7 @@ class _LocationsPageState extends State<LocationsPage> {
     locationStore = LocationStore(getLocationsUseCase, addLocationUseCase);
     locationStore.cargarUbicaciones();
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +54,6 @@ class _LocationsPageState extends State<LocationsPage> {
                   builder: (context) => AddLocationPage(locationStore: locationStore),
                 ),
               );
-              //Navigator.pushNamed(context, Routes.agregarAmigo);
             },
           ),
         ],
@@ -71,7 +75,7 @@ class _LocationsPageState extends State<LocationsPage> {
                   onTap: () {
                     Navigator.pushNamed(
                       context,
-                      '/friend_detail',
+                      Routes.locationDetails,
                       arguments: location,
                     );
                   },
