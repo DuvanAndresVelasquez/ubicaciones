@@ -58,7 +58,7 @@ class LocationsBottomSheet extends StatelessWidget {
                 onTap: () {
                   _addLocation(location.id ?? 0);
                   action();
-                  Navigator.pop(context); // Cierra el BottomSheet
+                  Navigator.pop(context);
 
                 },
               );

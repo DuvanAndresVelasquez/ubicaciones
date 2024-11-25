@@ -28,11 +28,10 @@ class DatabaseHelper {
     );
   }
 
+  ///Definición de la base de datos
+  ///La llamaremos app_database.db
+  ///creamos 3 tablas: locations, friends, friend_location
   Future<void> _onCreate(Database db, int version) async {
-
-
-
-
 
     await db.execute('''
       CREATE TABLE locations (

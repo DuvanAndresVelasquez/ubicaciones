@@ -27,7 +27,7 @@ class LocationDetailPage extends StatelessWidget {
             const SizedBox(height: 8),
             if (location.description != null)
               Text(
-                location.description!,
+                "${location.description} \nlongitud: ${location.longitud} \nlongitud: ${location.longitud}",
                 style: const TextStyle(fontSize: 16, color: Colors.grey),
               ),
             const SizedBox(height: 16),
