@@ -13,8 +13,8 @@ Este proyecto es una **prueba técnica** que permite registrar amigos, ubicacion
 ### Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/prueba-tecnica-ubicaciones.git
-   cd prueba-tecnica-ubicaciones
+   git clone https://github.com/DuvanAndresVelasquez/ubicaciones.git
+   cd ubicaciones
 Instala las dependencias de Flutter:
 
 
